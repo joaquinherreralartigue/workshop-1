@@ -1,0 +1,301 @@
+/*@media screen and (max-width: 768px){
+
+}*/
+.contenedor{
+	width: 100%;
+}
+
+header{
+	background: #2c3e50;
+}
+
+nav{
+	display: flex;
+	flex-flow: row nowrap;
+	width: 70%;
+	margin: auto;
+	color: white;
+	justify-content: space-between;
+	text-transform: uppercase;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+nav ul {
+	display: inline-flex;
+	width: 75%;
+	justify-content: space-around;
+}
+
+nav ul li {
+	padding: 25px 20px;
+	font-family: "Montserrat";
+	font-size: 0.5em;
+	font-weight: 700;
+}
+
+.menu{
+	display: none;
+}
+
+nav h2{
+	align-self: center;
+	font-family: "Montserrat";
+	font-weight: 700;
+	font-size: 0.9em;
+}
+
+.presentacion {
+	background-color: #18bc9c;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	padding-top: 8%;
+	padding-bottom: 8%;
+	box-sizing: border-box;
+}
+
+.espacio {
+	padding-bottom: 2%;
+	color: white;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-family: "Montserrat";
+	font-weight: 700;
+	font-size: 4em;
+	padding-top: 30px;
+}
+
+.star{
+	padding: 25px 0 20px 0;
+}
+
+.fa-star {
+	font-size: 2em;
+}
+
+.star::before {
+	content: "";
+	height: 4px;
+	width: 110px;
+	display: inline-block;
+	background: white;
+	margin-right: 8px;
+	margin-bottom: 10px;
+}
+
+.star::after {
+	content: "";
+	height: 4px;
+	width: 110px;
+	display: inline-block;
+	background: white;
+	margin-left: 8px;
+	margin-bottom: 10px;
+}
+
+.presentacion p {
+	font-family: "Open Sans";
+	font-size: 1.4em;
+	padding-top: 2%;
+}
+
+.portfolio {
+	padding-top: 6%;
+	padding-bottom: 6%; 
+	text-align: center;
+	width: 70%;
+	margin: auto;
+
+}
+
+.portfolio h2 {
+	text-transform: uppercase;
+	font-family: "Montserrat";
+	font-weight: 700;
+	font-size: 2.7em;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+
+.portfolio ul {
+	display: flex;
+	flex-flow: row wrap;
+	margin-top: 15px;
+}
+
+.star3 {
+	color: black;
+	margin: auto;
+}
+
+.star2::before {
+	content: "";
+	display: inline-block;
+	height: 4px;
+	width: 110px;
+	background: black;
+	margin-right: 8px;
+	margin-bottom: 10px;
+}
+
+.star2::after {
+	content: "";
+	display: inline-block;
+	height: 4px;
+	width: 110px;
+	background: black;
+	margin-left: 8px;
+	margin-bottom: 10px;
+}
+
+.portfolio ul{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.portfolio li{
+	width: 30%;
+}
+
+.portfolio ul li img {
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+.about {
+	background-color: #18bc9c;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	padding-top: 8%;
+	padding-bottom: 8%;
+	box-sizing: border-box;
+	color: white;
+}
+
+.fa-star {
+	font-size: 2em;
+}
+
+.star4::before {
+	content: "";
+	height: 4px;
+	width: 110px;
+	display: inline-block;
+	background: white;
+	margin-right: 8px;
+	margin-bottom: 10px;
+}
+
+.star4::after {
+	content: "";
+	height: 4px;
+	width: 110px;
+	display: inline-block;
+	background: white;
+	margin-left: 8px;
+	margin-bottom: 10px;
+}
+
+.texto{
+	display: flex;
+	width: 70%;
+	justify-content: center;
+	font-family: 'open sans', sans-serif;
+	font-weight: 600;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	line-height: 20px;
+}
+
+.about h2{
+	text-transform: uppercase;
+	font-family: "Montserrat";
+	font-weight: 700;
+	font-size: 2.7em;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.texto1{
+	width: 35%;
+	padding-right: 10px;
+}
+
+.texto2{
+	width: 35%;
+	padding-left: 10px;
+}
+
+.boton{
+	font-family: 'Open-sans', sans-serif;
+	font-weight: 600;
+	padding: 10px;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+.descarga {
+	padding-right: 5px;
+}
+
+.contacto {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	padding-top: 8%;
+	padding-bottom: 8%;
+	box-sizing: border-box;
+	color: black;
+}
+
+.contacto h2{
+	text-transform: uppercase;
+	font-family: "Montserrat";
+	font-weight: 700;
+	font-size: 2.7em;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.star5{
+	margin-bottom: 
+}
+
+.star5::after {
+	content: "";
+	height: 4px;
+	width: 110px;
+	display: inline-block;
+	background: black;
+	margin-left: 8px;
+	margin-bottom: 10px;
+}
+
+.star5::before {
+	content: "";
+	height: 4px;
+	width: 110px;
+	display: inline-block;
+	background: black;
+	margin-right: 8px;
+	margin-bottom: 10px;
+}
+
+.formulario{
+	margin-top: 20px;
+}
+
+input{
+	display: block;
+	width: 600px;
+	font-family: 'open sans', sans-serif;
+}
