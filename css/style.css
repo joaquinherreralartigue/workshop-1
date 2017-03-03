@@ -298,4 +298,33 @@ input{
 	display: block;
 	width: 600px;
 	font-family: 'open sans', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+    border: none;
+    border-bottom: 1px solid #c4c4c4;
+    padding: 20px 0;
+}
+
+input[type=textarea]{
+	display: block;
+	width: 600px;
+	font-family: 'open sans', sans-serif;
+    border: none;
+    padding: 20px 0;
+}
+
+input[type=text]{
+    border-top: 1px solid #c4c4c4;
+}
+
+input[type=submit]{
+	color: white;
+	background-color: #18bc9c;
+	width: 60px;
+	padding: 5px;
+	border-radius: 5px;
+	font-family: 'Open-sans', sans-serif;
+	font-weight: 600;
+	font-size: 12px;
+	margin-top: 50px;
 }
